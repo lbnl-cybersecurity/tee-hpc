@@ -1,0 +1,320 @@
+LESSOPEN=| /usr/bin/lesspipe %s
+TMUX=/tmp/tmux-0/default,1957,0
+MAIL=/var/mail/USER
+USER=USER
+SSH_CLIENT=168.150.123.211 50652 22
+SHLVL=2
+HOME=/USER
+OLDPWD=/home/sev/sev_experiments
+SSH_TTY=/dev/pts/0
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/0/bus
+LOGNAME=USER
+_=./collect_environment.sh
+XDG_SESSION_ID=1
+TERM=screen
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+S_COLORS=auto
+XDG_RUNTIME_DIR=/run/user/0
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+SHELL=/bin/bash
+LESSCLOSE=/usr/bin/lesspipe %s %s
+PWD=/home/sev/sev_experiments/Author-Kit
+SSH_CONNECTION=168.150.123.211 50652 139.178.90.11 22
+TMUX_PANE=%0
+LSB Version:	core-9.20170808ubuntu1-noarch:security-9.20170808ubuntu1-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.2 LTS
+Release:	18.04
+Codename:	bionic
+Linux sjc1-c2.medium.x86-01 5.4.1 #1 SMP Wed Apr 15 06:32:39 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              48
+On-line CPU(s) list: 0-47
+Thread(s) per core:  2
+Core(s) per socket:  24
+Socket(s):           1
+NUMA node(s):        4
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               1
+Model name:          AMD EPYC 7401P 24-Core Processor
+Stepping:            2
+CPU MHz:             2811.143
+BogoMIPS:            3992.47
+Virtualization:      AMD-V
+L1d cache:           32K
+L1i cache:           64K
+L2 cache:            512K
+L3 cache:            8192K
+NUMA node0 CPU(s):   0,4,8,12,16,20,24,28,32,36,40,44
+NUMA node1 CPU(s):   1,5,9,13,17,21,25,29,33,37,41,45
+NUMA node2 CPU(s):   2,6,10,14,18,22,26,30,34,38,42,46
+NUMA node3 CPU(s):   3,7,11,15,19,23,27,31,35,39,43,47
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate sme ssbd sev ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca
+MemTotal:       65612740 kB
+MemFree:        46139308 kB
+MemAvailable:   59194784 kB
+Buffers:          416848 kB
+Cached:         12551892 kB
+SwapCached:            0 kB
+Active:          4494736 kB
+Inactive:        8781812 kB
+Active(anon):     316644 kB
+Inactive(anon):    90688 kB
+Active(file):    4178092 kB
+Inactive(file):  8691124 kB
+Unevictable:       18532 kB
+Mlocked:           18532 kB
+SwapTotal:       1996796 kB
+SwapFree:        1996796 kB
+Dirty:              3756 kB
+Writeback:             0 kB
+AnonPages:        326068 kB
+Mapped:           108236 kB
+Shmem:             91632 kB
+KReclaimable:     925756 kB
+Slab:            1265304 kB
+SReclaimable:     925756 kB
+SUnreclaim:       339548 kB
+KernelStack:       11376 kB
+PageTables:        19160 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    32804316 kB
+Committed_AS:    4511304 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      133920 kB
+VmallocChunk:          0 kB
+Percpu:            71168 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:    1952
+HugePages_Free:      752
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:         3997696 kB
+DirectMap4k:      635712 kB
+DirectMap2M:    16859136 kB
+DirectMap1G:    49283072 kB
+System:    Host: sjc1-c2.medium.x86-01 Kernel: 5.4.1 x86_64 bits: 64 Console: tty 1 Distro: Ubuntu 18.04.2 LTS
+Machine:   Device: server System: Dell product: PowerEdge R6415 serial: HRP1HQ2
+           Mobo: Dell model: 065PKD v: A06 serial: .HRP1HQ2.CNFCP00855006H. UEFI: Dell v: 1.4.3 date: 06/29/2018
+CPU:       24 core AMD EPYC 7401P (-MT-MCP-) cache: 12288 KB
+           clock speeds: max: 2794 MHz 1: 2778 MHz 2: 2793 MHz 3: 2761 MHz 4: 2791 MHz 5: 2786 MHz 6: 2787 MHz
+           7: 2778 MHz 8: 2781 MHz 9: 2790 MHz 10: 2791 MHz 11: 2762 MHz 12: 2790 MHz 13: 2790 MHz 14: 2792 MHz
+           15: 2772 MHz 16: 2793 MHz 17: 2790 MHz 18: 2794 MHz 19: 2783 MHz 20: 2768 MHz 21: 2791 MHz
+           22: 2789 MHz 23: 2774 MHz 24: 2794 MHz 25: 2745 MHz 26: 2741 MHz 27: 2757 MHz 28: 2790 MHz
+           29: 2786 MHz 30: 2781 MHz 31: 2779 MHz 32: 2764 MHz 33: 2791 MHz 34: 2792 MHz 35: 2761 MHz
+           36: 2789 MHz 37: 2777 MHz 38: 2786 MHz 39: 2770 MHz 40: 2794 MHz 41: 2791 MHz 42: 2780 MHz
+           43: 2778 MHz 44: 2792 MHz 45: 2786 MHz 46: 2792 MHz 47: 2777 MHz 48: 2790 MHz
+Graphics:  Card: Matrox Systems Integrated Matrox G200eW3 Graphics Controller
+           Display Server: X.org 1.19.6 driver: mgag200 tty size: 167x42 Advanced Data: N/A for root out of X
+Network:   Card-1: Mellanox MT27710 Family [ConnectX-4 Lx] driver: mlx5_core
+           IF: enp5s0f0 state: up speed: 10000 Mbps duplex: full mac: 50:6b:4b:b4:aa:b2
+           Card-2: Mellanox MT27710 Family [ConnectX-4 Lx] driver: mlx5_core
+           IF: enp5s0f1 state: up speed: 10000 Mbps duplex: full mac: 50:6b:4b:b4:aa:b2
+Drives:    HDD Total Size: 1200.3GB (3.4% used)
+           ID-1: /dev/sda model: SSDSC2KB480G7R size: 480.1GB
+           ID-2: /dev/sdb model: SSDSC2KB480G7R size: 480.1GB
+           ID-3: /dev/sdc model: SSDSCKJB120G7R size: 120.0GB
+           ID-4: /dev/sdd model: SSDSCKJB120G7R size: 120.0GB
+Partition: ID-1: / size: 108G used: 37G (36%) fs: ext4 dev: /dev/sdd3
+           ID-2: swap-1 size: 2.04GB used: 0.00GB (0%) fs: swap dev: /dev/sdd2
+RAID:      No RAID devices: /proc/mdstat, md_mod kernel module present
+Sensors:   System Temperatures: cpu: No active sensors found. Have you configured your sensors yet? mobo: N/A
+Info:      Processes: 536 Uptime: 3 days Memory: 6356.8/64074.9MB Init: systemd runlevel: 5
+           Client: Shell (collect_environ) inxi: 2.3.56
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0         0 loop 
+loop1    7:1    0         0 loop 
+loop2    7:2    0         0 loop 
+loop3    7:3    0         0 loop 
+loop4    7:4    0         0 loop 
+loop5    7:5    0         0 loop 
+loop6    7:6    0         0 loop 
+loop7    7:7    0         0 loop 
+sda      8:0    0 447.1G  0 disk 
+sdb      8:16   0 447.1G  0 disk 
+sdc      8:32   0 111.8G  0 disk 
+sdd      8:48   0 111.8G  0 disk 
+├─sdd1   8:49   0   512M  0 part /boot/efi
+├─sdd2   8:50   0   1.9G  0 part [SWAP]
+└─sdd3   8:51   0 109.4G  0 part /
+[0:0:0:0]    disk    ATA      SSDSC2KB480G7R   DL58  /dev/sda    480GB
+[0:0:1:0]    disk    ATA      SSDSC2KB480G7R   DL58  /dev/sdb    480GB
+[1:0:0:0]    disk    ATA      SSDSCKJB120G7R   DL43  /dev/sdc    120GB
+[2:0:0:0]    disk    ATA      SSDSCKJB120G7R   DL43  /dev/sdd    120GB
+[3:0:0:0]    process Marvell  Console          1.01  -               -
+H/W path              Device     Class      Description
+=======================================================
+                                 system     PowerEdge R6415 (SKU=NotProvided;ModelName=PowerEdge R6415)
+/0                               bus        065PKD
+/0/0                             memory     64KiB BIOS
+/0/400                           processor  AMD EPYC 7401P 24-Core Processor
+/0/400/700                       memory     2304KiB L1 cache
+/0/400/701                       memory     12MiB L2 cache
+/0/400/702                       memory     64MiB L3 cache
+/0/1000                          memory     64GiB System Memory
+/0/1000/0                        memory     8GiB DIMM DDR4 Synchronous Registered (Buffered) 2666 MHz (0.4 ns)
+/0/1000/1                        memory     8GiB DIMM DDR4 Synchronous Registered (Buffered) 2666 MHz (0.4 ns)
+/0/1000/2                        memory     8GiB DIMM DDR4 Synchronous Registered (Buffered) 2666 MHz (0.4 ns)
+/0/1000/3                        memory     8GiB DIMM DDR4 Synchronous Registered (Buffered) 2666 MHz (0.4 ns)
+/0/1000/4                        memory     8GiB DIMM DDR4 Synchronous Registered (Buffered) 2666 MHz (0.4 ns)
+/0/1000/5                        memory     8GiB DIMM DDR4 Synchronous Registered (Buffered) 2666 MHz (0.4 ns)
+/0/1000/6                        memory     8GiB DIMM DDR4 Synchronous Registered (Buffered) 2666 MHz (0.4 ns)
+/0/1000/7                        memory     8GiB DIMM DDR4 Synchronous Registered (Buffered) 2666 MHz (0.4 ns)
+/0/1000/8                        memory     [empty]
+/0/1000/9                        memory     [empty]
+/0/1000/a                        memory     [empty]
+/0/1000/b                        memory     [empty]
+/0/1000/c                        memory     [empty]
+/0/1000/d                        memory     [empty]
+/0/1000/e                        memory     [empty]
+/0/1000/f                        memory     [empty]
+/0/100                           bridge     Family 17h (Models 00h-0fh) Root Complex
+/0/100/0.2                       generic    Family 17h (Models 00h-0fh) I/O Memory Management Unit
+/0/100/1.1                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/100/1.2                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/100/1.3                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/100/1.4                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/100/3.1                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/100/3.1/0          enp5s0f0   network    MT27710 Family [ConnectX-4 Lx]
+/0/100/3.1/0.1        enp5s0f1   network    MT27710 Family [ConnectX-4 Lx]
+/0/100/7.1                       bridge     Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/100/7.1/0                     generic    Advanced Micro Devices, Inc. [AMD]
+/0/100/7.1/0.2                   generic    Family 17h (Models 00h-0fh) Platform Security Processor
+/0/100/7.1/0.3                   bus        USB 3.0 Host controller
+/0/100/7.1/0.3/0      usb1       bus        xHCI Host Controller
+/0/100/7.1/0.3/0/1               bus        USB2734
+/0/100/7.1/0.3/1      usb2       bus        xHCI Host Controller
+/0/100/7.1/0.3/1/1               bus        USB5734
+/0/100/8.1                       bridge     Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/100/8.1/0                     generic    Advanced Micro Devices, Inc. [AMD]
+/0/100/8.1/0.1                   generic    Advanced Micro Devices, Inc. [AMD]
+/0/100/14                        bus        FCH SMBus Controller
+/0/100/14.3                      bridge     FCH LPC Bridge
+/0/101                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/102                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/103                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/104                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/105                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/106                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/107                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
+/0/108                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
+/0/109                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
+/0/10a                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3
+/0/10b                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4
+/0/10c                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5
+/0/10d                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6
+/0/10e                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7
+/0/10f                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
+/0/110                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
+/0/111                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
+/0/112                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3
+/0/113                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4
+/0/114                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5
+/0/115                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6
+/0/116                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7
+/0/117                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
+/0/118                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
+/0/119                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
+/0/11a                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3
+/0/11b                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4
+/0/11c                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5
+/0/11d                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6
+/0/11e                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7
+/0/11f                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
+/0/120                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
+/0/121                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
+/0/122                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3
+/0/123                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4
+/0/124                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5
+/0/125                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6
+/0/126                           bridge     Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7
+/0/127                           bridge     Family 17h (Models 00h-0fh) Root Complex
+/0/127/0.2                       generic    Family 17h (Models 00h-0fh) I/O Memory Management Unit
+/0/127/1.2                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/127/1.3                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/127/7.1                       bridge     Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/127/7.1/0                     generic    Advanced Micro Devices, Inc. [AMD]
+/0/127/7.1/0.2                   generic    Family 17h (Models 00h-0fh) Platform Security Processor
+/0/127/7.1/0.3                   bus        USB 3.0 Host controller
+/0/127/7.1/0.3/0      usb3       bus        xHCI Host Controller
+/0/127/7.1/0.3/0/1               bus        USB hub
+/0/127/7.1/0.3/0/1/1             bus        USB hub
+/0/127/7.1/0.3/0/1/4             bus        USB hub
+/0/127/7.1/0.3/1      usb4       bus        xHCI Host Controller
+/0/127/8.1                       bridge     Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/127/8.1/0                     generic    Advanced Micro Devices, Inc. [AMD]
+/0/127/8.1/0.1                   generic    Advanced Micro Devices, Inc. [AMD]
+/0/128                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/129                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/12a                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/12b                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/12c                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/12d                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/12e                           bridge     Family 17h (Models 00h-0fh) Root Complex
+/0/12e/0.2                       generic    Family 17h (Models 00h-0fh) I/O Memory Management Unit
+/0/12e/1.2                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/12e/1.2/0                     bridge     PLDA
+/0/12e/1.2/0/0                   display    Integrated Matrox G200eW3 Graphics Controller
+/0/12e/3.1                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/12e/3.1/0                     storage    88SE9230 PCIe SATA 6Gb/s Controller
+/0/12e/7.1                       bridge     Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/12e/7.1/0                     generic    Advanced Micro Devices, Inc. [AMD]
+/0/12e/7.1/0.2                   generic    Family 17h (Models 00h-0fh) Platform Security Processor
+/0/12e/8.1                       bridge     Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/12e/8.1/0                     generic    Advanced Micro Devices, Inc. [AMD]
+/0/12e/8.1/0.1                   generic    Advanced Micro Devices, Inc. [AMD]
+/0/12e/8.1/0.2                   storage    FCH SATA Controller [AHCI mode]
+/0/12f                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/130                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/131                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/132                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/133                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/134                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/135                           bridge     Family 17h (Models 00h-0fh) Root Complex
+/0/135/0.2                       generic    Family 17h (Models 00h-0fh) I/O Memory Management Unit
+/0/135/1.1                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/135/1.1/0          scsi0      storage    SAS3008 PCI-Express Fusion-MPT SAS-3
+/0/135/1.1/0/0.0.0    /dev/sda   volume     447GiB SSDSC2KB480G7R
+/0/135/1.1/0/0.1.0    /dev/sdb   volume     447GiB SSDSC2KB480G7R
+/0/135/3.1                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/135/3.2                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/135/3.3                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/135/3.4                       bridge     Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/135/7.1                       bridge     Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/135/7.1/0                     generic    Advanced Micro Devices, Inc. [AMD]
+/0/135/7.1/0.2                   generic    Family 17h (Models 00h-0fh) Platform Security Processor
+/0/135/8.1                       bridge     Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/135/8.1/0                     generic    Advanced Micro Devices, Inc. [AMD]
+/0/135/8.1/0.1                   generic    Advanced Micro Devices, Inc. [AMD]
+/0/136                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/137                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/138                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/139                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/13a                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/13b                           bridge     Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/1                  scsi1      storage    
+/0/1/0.0.0            /dev/sdc   disk       120GB SSDSCKJB120G7R
+/0/2                  scsi2      storage    
+/0/2/0.0.0            /dev/sdd   disk       120GB SSDSCKJB120G7R
+/0/2/0.0.0/1                     volume     511MiB Windows FAT volume
+/0/2/0.0.0/2          /dev/sdd2  volume     1949MiB Linux swap volume
+/0/2/0.0.0/3          /dev/sdd3  volume     109GiB EXT4 volume
+/0/3                  scsi3      storage    
+/0/3/0.0.0                       processor  Console
+/1                               power      06V43GA00
+/2                               power      06V43GA00
+/3                    bond0      network    Ethernet interface

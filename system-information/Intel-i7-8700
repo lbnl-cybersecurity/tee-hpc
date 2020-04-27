@@ -1,0 +1,206 @@
+SUDO_GID=1000
+LESSOPEN=| /usr/bin/lesspipe %s
+MAIL=/var/mail/USER
+USER=USER
+SHLVL=1
+HOME=/USER
+OLDPWD=/home
+SUDO_UID=1000
+LOGNAME=USER
+_=./collect_environment.sh
+USERNAME=USER
+TERM=screen
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+SUDO_COMMAND=/bin/su
+SHELL=/bin/bash
+LESSCLOSE=/usr/bin/lesspipe %s %s
+SUDO_USER=aakahlow
+PWD=/home/aakahlow
+LSB Version:	core-9.20170808ubuntu1-noarch:security-9.20170808ubuntu1-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.3 LTS
+Release:	18.04
+Codename:	bionic
+Linux summit 4.15.0-91-generic #92-Ubuntu SMP Fri Feb 28 11:09:48 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              12
+On-line CPU(s) list: 0-11
+Thread(s) per core:  2
+Core(s) per socket:  6
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               158
+Model name:          Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+Stepping:            10
+CPU MHz:             4360.937
+CPU max MHz:         4600.0000
+CPU min MHz:         800.0000
+BogoMIPS:            6384.00
+Virtualization:      VT-x
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            256K
+L3 cache:            12288K
+NUMA node0 CPU(s):   0-11
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+MemTotal:       32603284 kB
+MemFree:         7958936 kB
+MemAvailable:   27885488 kB
+Buffers:         2310036 kB
+Cached:         17432772 kB
+SwapCached:        13192 kB
+Active:         11651404 kB
+Inactive:       11363724 kB
+Active(anon):    3002764 kB
+Inactive(anon):   706156 kB
+Active(file):    8648640 kB
+Inactive(file): 10657568 kB
+Unevictable:          48 kB
+Mlocked:              48 kB
+SwapTotal:       2097148 kB
+SwapFree:        1914876 kB
+Dirty:             63672 kB
+Writeback:             0 kB
+AnonPages:       3267064 kB
+Mapped:           758964 kB
+Shmem:            439076 kB
+Slab:            1346204 kB
+SReclaimable:    1084588 kB
+SUnreclaim:       261616 kB
+KernelStack:       25952 kB
+PageTables:        93388 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    18398788 kB
+Committed_AS:   15372232 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:     1354064 kB
+DirectMap2M:    26619904 kB
+DirectMap1G:     5242880 kB
+System:    Host: summit Kernel: 4.15.0-91-generic x86_64 bits: 64 Console: tty 14 Distro: Ubuntu 18.04.3 LTS
+Machine:   Device: desktop System: Dell product: OptiPlex 5060 serial: 1R3WLR2
+           Mobo: Dell model: 0654JC v: A01 serial: /1R3WLR2/CNFCW0088100IE/ UEFI: Dell v: 1.1.4 date: 07/10/2018
+CPU:       6 core Intel Core i7-8700 (-MT-MCP-) cache: 12288 KB
+           clock speeds: max: 4600 MHz 1: 2334 MHz 2: 1260 MHz 3: 1071 MHz 4: 1330 MHz 5: 1233 MHz 6: 1326 MHz
+           7: 1261 MHz 8: 1087 MHz 9: 1140 MHz 10: 1242 MHz 11: 2570 MHz 12: 1057 MHz
+Graphics:  Card-1: Intel Device 3e92
+           Card-2: Advanced Micro Devices [AMD/ATI] Oland [Radeon HD 8570 / R7 240/340 OEM]
+           Display Server: X.org 1.19.6 drivers: i915,radeon
+           tty size: 167x42 Advanced Data: N/A for root out of X
+Audio:     Card-1 Intel Cannon Lake PCH cAVS driver: snd_hda_intel Sound: ALSA v: k4.15.0-91-generic
+           Card-2 Advanced Micro Devices [AMD/ATI] Cape Verde/Pitcairn HDMI Audio [Radeon HD 7700/7800 Series]
+           driver: snd_hda_intel
+Network:   Card: Intel Ethernet Connection (7) I219-V driver: e1000e
+           IF: eno1 state: up speed: 1000 Mbps duplex: full mac: 54:bf:64:7f:85:78
+Drives:    HDD Total Size: 1512.3GB (59.5% used)
+           ID-1: /dev/sda model: SanDisk_SSD_PLUS size: 1000.2GB
+           ID-2: /dev/sdb model: SK_hynix_SC311_S size: 512.1GB
+Partition: ID-1: / size: 384G used: 309G (85%) fs: ext4 dev: /dev/sdb5
+RAID:      No RAID devices: /proc/mdstat, md_mod kernel module present
+Sensors:   System Temperatures: cpu: 43.0C mobo: N/A gpu: 34.0
+           Fan Speeds (in rpm): cpu: N/A
+Info:      Processes: 456 Uptime: 34 days Memory: 4793.1/31839.1MB Init: systemd runlevel: 5
+           Client: Shell (collect_environ) inxi: 2.3.56
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0 160.2M  1 loop /snap/gnome-3-28-1804/116
+loop1    7:1    0   3.7M  1 loop /snap/gnome-system-monitor/127
+loop2    7:2    0 140.7M  1 loop /snap/gnome-3-26-1604/97
+loop3    7:3    0 156.7M  1 loop /snap/gnome-3-28-1804/110
+loop4    7:4    0   2.4M  1 loop /snap/gnome-calculator/730
+loop5    7:5    0    55M  1 loop /snap/core18/1705
+loop6    7:6    0  62.1M  1 loop /snap/gtk-common-themes/1506
+loop7    7:7    0  54.8M  1 loop /snap/gtk-common-themes/1502
+loop8    7:8    0   956K  1 loop /snap/gnome-logs/81
+loop9    7:9    0  54.7M  1 loop /snap/core18/1668
+loop10   7:10   0         1 loop 
+loop11   7:11   0  14.8M  1 loop /snap/gnome-characters/399
+loop12   7:12   0 140.7M  1 loop /snap/gnome-3-26-1604/98
+loop13   7:13   0  14.8M  1 loop /snap/gnome-characters/495
+loop14   7:14   0   956K  1 loop /snap/gnome-logs/93
+loop15   7:15   0   3.7M  1 loop /snap/gnome-system-monitor/135
+loop16   7:16   0   4.3M  1 loop /snap/gnome-calculator/704
+loop17   7:17   0  93.8M  1 loop /snap/core/8935
+loop18   7:18   0  93.9M  1 loop /snap/core/9066
+loop19   7:19   0 242.4M  1 loop /snap/gnome-3-34-1804/27
+sda      8:0    0 931.5G  0 disk 
+└─sda1   8:1    0 931.5G  0 part /data
+sdb      8:16   0   477G  0 disk 
+├─sdb1   8:17   0   650M  0 part /boot/efi
+├─sdb2   8:18   0   128M  0 part 
+├─sdb3   8:19   0  84.6G  0 part 
+├─sdb4   8:20   0   990M  0 part 
+└─sdb5   8:21   0 390.6G  0 part /
+sr0     11:0    1  1024M  0 rom  
+[0:0:0:0]    disk    ATA      SanDisk SSD PLUS 00RL  /dev/sda   1.00TB
+[2:0:0:0]    cd/dvd  HL-DT-ST DVD+-RW GU90N    A1C3  /dev/sr0        -
+[4:0:0:0]    disk    ATA      SK hynix SC311 S 0P10  /dev/sdb    512GB
+H/W path       Device      Class          Description
+=====================================================
+                           system         OptiPlex 5060 (085B)
+/0                         bus            0654JC
+/0/0                       memory         64KiB BIOS
+/0/9                       memory         32GiB System Memory
+/0/9/0                     memory         8GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/9/1                     memory         8GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/9/2                     memory         8GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/9/3                     memory         8GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/14                      memory         384KiB L1 cache
+/0/15                      memory         1536KiB L2 cache
+/0/16                      memory         12MiB L3 cache
+/0/17                      processor      Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+/0/100                     bridge         8th Gen Core Processor Host Bridge/DRAM Registers
+/0/100/1                   bridge         Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16)
+/0/100/1/0                 display        Oland [Radeon HD 8570 / R7 240/340 OEM]
+/0/100/1/0.1               multimedia     Cape Verde/Pitcairn HDMI Audio [Radeon HD 7700/7800 Series]
+/0/100/2                   display        Intel Corporation
+/0/100/8                   generic        Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model
+/0/100/12                  generic        Cannon Lake PCH Thermal Controller
+/0/100/14                  bus            Cannon Lake PCH USB 3.1 xHCI Host Controller
+/0/100/14/0    usb1        bus            xHCI Host Controller
+/0/100/14/0/6              input          Dell KB216 Wired Keyboard
+/0/100/14/0/b              input          Dell MS116 USB Optical Mouse
+/0/100/14/1    usb2        bus            xHCI Host Controller
+/0/100/14.2                memory         RAM memory
+/0/100/15                  bus            Intel Corporation
+/0/100/16                  communication  Cannon Lake PCH HECI Controller
+/0/100/17                  storage        SATA Controller [RAID mode]
+/0/100/1f                  bridge         Intel Corporation
+/0/100/1f.3                multimedia     Cannon Lake PCH cAVS
+/0/100/1f.4                bus            Cannon Lake PCH SMBus Controller
+/0/100/1f.5                bus            Cannon Lake PCH SPI Controller
+/0/100/1f.6    eno1        network        Ethernet Connection (7) I219-V
+/0/1           scsi0       storage        
+/0/1/0.0.0     /dev/sda    disk           1TB SanDisk SSD PLUS
+/0/1/0.0.0/1   /dev/sda1   volume         931GiB EXT4 volume
+/0/2           scsi2       storage        
+/0/2/0.0.0     /dev/cdrom  disk           DVD+-RW GU90N
+/0/3           scsi4       storage        
+/0/3/0.0.0     /dev/sdb    disk           512GB SK hynix SC311 S
+/0/3/0.0.0/1   /dev/sdb1   volume         649MiB Windows FAT volume
+/0/3/0.0.0/2   /dev/sdb2   volume         127MiB reserved partition
+/0/3/0.0.0/3   /dev/sdb3   volume         84GiB Windows NTFS volume
+/0/3/0.0.0/4   /dev/sdb4   volume         989MiB Windows NTFS volume
+/0/3/0.0.0/5   /dev/sdb5   volume         390GiB EXT4 volume
+/1             docker0     network        Ethernet interface
+/2             virbr0-nic  network        Ethernet interface
+/3             virbr0      network        Ethernet interface
