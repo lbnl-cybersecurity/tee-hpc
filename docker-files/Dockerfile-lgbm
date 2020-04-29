@@ -5,6 +5,8 @@ MAINTAINER Ayaz Akram <yazakram@ucdavis.edu>
 
 ADD boosting_tree_benchmarks /home/boosting_tree_benchmarks
 ADD sgx-musl.conf /etc/sgx-musl.conf
+ADD CMakeLists.txt /home/boosting_tree_benchmarks/lightgbm/LightGBM/CMakeLists.txt
+ADD lgbm.conf /home/boosting_tree_benchmarks/lightgbm/lgbm.conf
 WORKDIR /home/boosting_tree_benchmarks/lightgbm
 
 RUN bash -c "apk add cmake"

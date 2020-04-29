@@ -64,8 +64,14 @@ To build the docker container:
 
 ```
 cp lgbm-files/sgx-musl.conf .
+cp lgbm-files/CMakeLists.txt .
+cp lgbm-files/lgbm.conf .
 docker build -f Dockerfile-lgbm . -t lgbm-scone
 ```
+
+lightgbm/LightGBM/CMakeLists.txt
+OPTION(USE_OPENMP "Enable OpenMP" ON) is set
+and lgbm.conf in lightgbm/lgbm.conf has num_thread set to desired number.
 
 ## Mobiliti
 
