@@ -1,0 +1,16 @@
+FROM aakahlow/scone-npb:latest
+MAINTAINER Ayaz Akram <yazakram@ucdavis.edu>
+
+#add benchmarks
+
+ADD gapbs /home/gapbs
+ADD sgx-musl.conf /etc/sgx-musl.conf
+
+WORKDIR /home/gapbs
+
+#build road network graphs
+RUN bash -c "make bench-graphs"
+RUN bash -c "rm -rf benchmark/graphs/raw"
+
+#compile benchmarks
+RUN bash -c "make"

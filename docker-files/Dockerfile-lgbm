@@ -1,0 +1,14 @@
+FROM sconecuratedimages/crosscompilers
+MAINTAINER Ayaz Akram <yazakram@ucdavis.edu>
+
+#add benchmarks
+
+ADD boosting_tree_benchmarks /home/boosting_tree_benchmarks
+ADD sgx-musl.conf /etc/sgx-musl.conf
+WORKDIR /home/boosting_tree_benchmarks/lightgbm
+
+RUN bash -c "apk add cmake"
+RUN bash -c "apk add make"
+RUN bash -c "apk add git"
+RUN bash -c "./build.sh"
+

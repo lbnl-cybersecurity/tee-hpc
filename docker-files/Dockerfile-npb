@@ -1,0 +1,20 @@
+FROM aakahlow/scone-npb:latest
+MAINTAINER Ayaz Akram <yazakram@ucdavis.edu>
+
+# Most of the libraries are already installed in this image
+
+#add scone configuration file
+
+ADD sgx-musl.conf /etc/sgx-musl.conf
+
+#download and add benchmarks
+
+ADD NPB3.3.1 /home/NPB3.3.1
+
+ADD suite.def /home/NPB3.3.1/NPB3.3-OMP/config/suite.def
+ADD make.def /home/NPB3.3.1/NPB3.3-OMP/config/make.def
+
+#compile benchmarks
+
+WORKDIR /home/NPB3.3.1/NPB3.3-OMP
+RUN bash -c "make suite"
