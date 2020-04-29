@@ -69,7 +69,5 @@ docker build -f Dockerfile-lgbm . -t lgbm-scone
 
 ## Mobiliti
 
-
-
-## BlASTN
+[Mobiliti](https://crd.lbl.gov/departments/computer-science/cag/research/mobiliti/) is not open-source, so we are not providing instructions on how to build or run the benchmark.
 
