@@ -1,0 +1,69 @@
+From ab4b721cc9e28ac6db27903337536f742bd41835 Mon Sep 17 00:00:00 2001
+From: Ayaz Akram <yazakram@ucdavis.edu>
+Date: Wed, 29 Apr 2020 18:35:47 -0700
+Subject: [PATCH 1/1] Modify the driver to print EPC faults
+
+---
+ sgx_ioctl.c      | 5 +++++
+ sgx_page_cache.c | 8 ++++++++
+ 2 files changed, 13 insertions(+)
+
+diff --git a/sgx_ioctl.c b/sgx_ioctl.c
+index 0b3476d..c7504f1 100644
+--- a/sgx_ioctl.c
++++ b/sgx_ioctl.c
+@@ -73,6 +73,8 @@
+ #include <linux/hashtable.h>
+ #include <linux/shmem_fs.h>
+ 
++extern long int page_swaps;
++
+ int sgx_get_encl(unsigned long addr, struct sgx_encl **encl)
+ {
+ 	struct mm_struct *mm = current->mm;
+@@ -114,6 +116,9 @@ int sgx_get_encl(unsigned long addr, struct sgx_encl **encl)
+ static long sgx_ioc_enclave_create(struct file *filep, unsigned int cmd,
+ 				   unsigned long arg)
+ {
++       page_swaps = 0;
++	printk(KERN_INFO "Enclave_Created \n");
++
+ 	struct sgx_enclave_create *createp = (struct sgx_enclave_create *)arg;
+ 	void __user *src = (void __user *)createp->src;
+ 	struct sgx_secs *secs;
+diff --git a/sgx_page_cache.c b/sgx_page_cache.c
+index b4bc985..b201704 100644
+--- a/sgx_page_cache.c
++++ b/sgx_page_cache.c
+@@ -86,6 +86,9 @@ static unsigned int sgx_nr_high_pages;
+ static struct task_struct *ksgxswapd_tsk;
+ static DECLARE_WAIT_QUEUE_HEAD(ksgxswapd_waitq);
+ 
++
++long int page_swaps = 0;
++
+ static int sgx_test_and_clear_young_cb(pte_t *ptep, pgtable_t token,
+ 				       unsigned long addr, void *data)
+ {
+@@ -299,6 +302,10 @@ static bool sgx_ewb(struct sgx_encl *encl,
+ 		return false;
+ 	}
+ 
++	//increment the counter only if the ewb was successful
++	page_swaps = page_swaps + 1;
++	if((page_swaps % 1000) == 0)
++       printk(KERN_INFO "page_swaps_ewb : sgx: %ld\n",page_swaps);
+ 	return true;
+ }
+ 
+@@ -430,6 +437,7 @@ err_freelist:
+ 
+ int sgx_page_cache_init(void)
+ {
++	printk(KERN_INFO "Initialize page cache :\n");
+ 	struct task_struct *tmp;
+ 
+ 	sgx_nr_high_pages = 2 * sgx_nr_low_pages;
+-- 
+2.17.1
+
