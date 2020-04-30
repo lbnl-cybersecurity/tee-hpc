@@ -69,10 +69,6 @@ cp lgbm-files/lgbm.conf .
 docker build -f Dockerfile-lgbm . -t lgbm-scone
 ```
 
-lightgbm/LightGBM/CMakeLists.txt
-OPTION(USE_OPENMP "Enable OpenMP" ON) is set
-and lgbm.conf in lightgbm/lgbm.conf has num_thread set to desired number.
-
 ## Mobiliti
 
 [Mobiliti](https://crd.lbl.gov/departments/computer-science/cag/research/mobiliti/) is not open-source, so we are not providing instructions on how to build or run the benchmark.
