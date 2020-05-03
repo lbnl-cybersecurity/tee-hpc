@@ -3,7 +3,9 @@ benchmarks=( bfs pr cc bc sssp tc )
 
 declare -a arguments=("-f benchmark/graphs/road.sg -n64" "-f benchmark/graphs/road.sg -i1000 -t1e-4 -n16" "-f benchmark/graphs/road.sg -n16" "-f benchmark/graphs/road.sg -i4 -n16" "-f benchmark/graphs/road.wsg -n64 -d50000" "-f benchmark/graphs/roadU.sg -n3")
 
-threads=( 1 2 4 6 )
+threads=( 6 )
+
+mkdir gapbs-out
 
 for tr in "${threads[@]}"
 do

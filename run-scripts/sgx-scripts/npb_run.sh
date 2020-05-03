@@ -11,7 +11,7 @@ if [ ! -d Class_$1_npb ]; then
 	  mkdir -p Class_$1_npb;
 fi
   
-threads=( 1 2 4 6 )
+threads=( 6 )
 for tr in "${threads[@]}"
 do
 for bm in "${bms[@]}"

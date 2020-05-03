@@ -31,7 +31,7 @@ apt-get install git flex apt-utils xfce4 xfce4-goodies tightvncserver
 We use one of the latest linux kernels (5.4.1) with SEV support to run our experiments. 
 Follow the instructions provided in this [link](https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html) to update the kernel to 5.4.1.
 
-Next, download the official source material for AMD SEV setup and run the provide build script:
+Next, download the official source material for AMD SEV setup and run the provided build script:
 
 ```
 git clone --single-branch -b master https://github.com/AMDESE/AMDSEV.git
@@ -70,7 +70,7 @@ wget http://releases.ubuntu.com/18.04/ubuntu-18.04.4-live-server-amd64.iso
 To install this ubuntu image on the created disk, we need to set up a vnc connection (if this process is performed on a remote server), since ubuntu installer works in graphic mode.
 
 ```sh
-ssh -L 5900+[X]:localhost:5900+X root@[packet server ip address]
+ssh -L 5900+[X]:localhost:5900+X user@[server ip address]
 ```
 
 Then run:

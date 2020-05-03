@@ -84,6 +84,8 @@ For interleaved memory allocation, do the following:
 numactl --interleave=0,1,2,3 launch-qemu.sh -hda ubuntu-18.04.qcow2 -vnc 0 -nosev -console serial -smp 24 -mem 16384
 ```
 
+`launch-qemu.sh` will be automatically installed when AMD SEV setup instructions are run as discussed in main [README](../README.md).
+
 Once the VM is launched, npb.sh can be used to collect data for NPB benchmarks in both cases of memory allocation since, VM is launched with `numactl` call for the case of interleaved allocation.
 
 **Note**: Remove the `-nosev` option above to launch VM for **QEMU+SEV** case. Using the above commands a vnc connection on port 5900 needs to be established to view the VM console. Moreover, the above commands launch a VM with 16G of memory and 24 cores.
@@ -210,8 +212,8 @@ To compile it:
 ```sh
 cd ncbi-blast-2.7.1+-src/c++
 ./configure
-make
-make install
+cd ReleaseMT/build
+make all_r
 ```
 
 Download the raw database and prepare it to be used by BLASTN:
@@ -220,8 +222,14 @@ Download the raw database and prepare it to be used by BLASTN:
 wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nt.gz
 gunzip nt.gz
 
-Make the DB:
-makeblastdb -in nt -dbtype nucl
+Make the DB (this process can take several minutes):
+ncbi-blast-2.7.1+-src/c++/ReleaseMT/bin/makeblastdb -in nt -dbtype nucl
+```
+
+Install blastn:
+
+```sh
+cp ncbi-blast-2.7.1+-src/c++/ReleaseMT/bin/blastn /usr/bin/blastn
 ```
 
 Place the sev-files/scaffolds.trim.shred.fasta, where nt database is extracted and do

@@ -7,13 +7,15 @@ benchmarks with SGX.
 
 Follow the following steps to build the docker container to run NPB experiments:
 
-```
+```sh
+cd docker-files/
 wget https://www.nas.nasa.gov/assets/npb/NPB3.3.1.tar.gz
 tar -xzvf NPB3.3.1.tar.gz
 
 cp npb-files/sgx-musl.conf .
-cp npb-files//suite.def .
-cp npb-files//make.def .
+cp npb-files/suite.def .
+cp npb-files/make.def .
+cp npb-files/setparams .
 
 docker build -f Dockerfile-npb . -t npb-scone
 ```
@@ -22,13 +24,18 @@ docker build -f Dockerfile-npb . -t npb-scone
 
 Follow these steps to build the docker container to run GAPBS with SGX:
 
-```
+```sh
 git clone https://github.com/sbeamer/gapbs.git
 cd gapbs/
 git checkout ad3be9ea1b275bad46fe00573eaeb
 
 update bench.mk file to build only road network graph
 cp ../gapbs-files/bench.mk benchmark/
+
+# build road network graphs
+make bench-graphs
+rm -rf benchmark/graphs/raw
+
 cd ../
 
 cp gapbs-files/sgx-musl.conf .
