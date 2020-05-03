@@ -80,7 +80,8 @@ launch-qemu.sh -hda ubuntu-18.04.qcow2 -cdrom ubuntu-18.04.4-live-server-amd64.i
 
 Where, X = Port number to be used - 5900
 ```
+Follow the instructions there to install ubuntu on the disk image (ubuntu-18.04.qcow2), which will be later used to run guest VM.
 
-## Native Experiments
+## SGX and SEV Experiments
 
-
+To run the benchmarks for both SGX and SEV systems, follow the instructions in run-scripts/README.md.
