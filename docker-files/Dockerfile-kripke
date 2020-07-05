@@ -1,0 +1,21 @@
+FROM sconecuratedimages/datasystems:tensorscone
+MAINTAINER Ayaz Akram <yazakram@ucdavis.edu>
+
+# Most of the libraries are already installed in this image
+
+#add scone configuration file
+
+ADD sgx-musl.conf /etc/sgx-musl.conf
+
+#download and add benchmarks
+ADD Kripke /home/Kripke
+
+#compile benchmarks
+
+WORKDIR /home/Kripke/build
+RUN bash -c "apk add cmake"
+RUN bash -c "apk add make"
+RUN bash -c "pwd"
+RUN bash -c "cmake -DCMAKE_CXX_COMPILER=/usr/local/bin/scone-g++ -DCMAKE_C_COMPILER=/usr/local/bin/scone-gcc -DENABLE_OPENMP=True .."
+RUN bash -c "make -j6"
+

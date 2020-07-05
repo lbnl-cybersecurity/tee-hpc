@@ -80,3 +80,24 @@ docker build -f Dockerfile-lgbm . -t lgbm-scone
 
 [Mobiliti](https://crd.lbl.gov/departments/computer-science/cag/research/mobiliti/) is not open-source, so we are not providing instructions on how to build or run the benchmark.
 
+## LULESH
+
+```sh
+git clone https://github.com/LLNL/LULESH.git
+cd LULESH
+mkdir build
+cp ../lulesh-files/lulesh.h .
+cp ../lulesh-files/CMakeLists.txt .
+docker build -f Dockerfile-lulesh . -t lulesh-scone
+```
+
+## Kripke
+
+```sh
+git clone https://github.com/LLNL/Kripke.git
+cd Kripke
+git submodule update --init --recursive
+mkdir build
+docker build -f Dockerfile-kripke . -t kripke-scone
+```
+
